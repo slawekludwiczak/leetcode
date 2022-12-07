@@ -1,5 +1,6 @@
 package longest_common_prefix;
 
+//https://leetcode.com/problems/longest-common-prefix/description/
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 1) {
