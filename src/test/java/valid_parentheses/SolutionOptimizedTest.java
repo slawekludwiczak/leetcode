@@ -20,6 +20,7 @@ class SolutionOptimizedTest {
             "), false",
             "], false",
             "}, false",
+            "[[[[[[[[[[[[[[[[[[[, false",
     })
     void leetCodeTest1(String s, boolean expectedResult) {
         boolean actualResult = solution.isValid(s);

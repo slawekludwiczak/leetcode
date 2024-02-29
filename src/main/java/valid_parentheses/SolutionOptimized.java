@@ -5,7 +5,7 @@ class SolutionOptimized {
     private final char[] closingParentheses = {')', ']', '}'};
 
     public boolean isValid(String s) {
-        char[] stack = new char[s.length()/2+1];
+        char[] stack = new char[s.length()];
         int size = 0;
         for (char nextChar : s.toCharArray()) {
             if (nextChar == openParentheses[0] || nextChar == openParentheses[1] || nextChar == openParentheses[2]) {
