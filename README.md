@@ -13,5 +13,6 @@ Solved problems:
 66. Plus One
 125. Valid palindrome (swift)
 938. Range sum of bst
+2058. Find the Minimum and Maximum Number of Nodes Between Critical Points *
 2558. Take gifts from the richest pile
 ```
