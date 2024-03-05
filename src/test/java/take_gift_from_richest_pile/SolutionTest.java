@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SolutionTest {
-    private Solution solution = new Solution();
+    private SolutionBest solution = new SolutionBest();
 
     @Test
     void leetCodeTest1() {
