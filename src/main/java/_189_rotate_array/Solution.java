@@ -3,7 +3,7 @@ package _189_rotate_array;
 import java.util.Arrays;
 
 class Solution {
-    public void rotatee(int[] nums, int k) {
+    public void rotate(int[] nums, int k) {
         if (k > nums.length) {
             k = k % nums.length;
         }
