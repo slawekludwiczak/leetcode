@@ -9,11 +9,16 @@ class SolutionTest {
     Solution solution = new Solution();
 
     @ParameterizedTest
-    @CsvSource({
-            "the sky is blue,blue is sky the",
-            "  hello world  ,world hello",
-            "a good   example,example good a"
-    })
+    @CsvSource(
+            value = {
+                    "the sky is blue,blue is sky the",
+                    "  hello world  ,world hello",
+                    "a good   example,example good a",
+                    "a,a",
+                    " a ,a"
+            },
+            ignoreLeadingAndTrailingWhitespace = false
+    )
     void leetCodeTest(String source, String target) {
         String result = solution.reverseWords(source);
         assertEquals(target, result);
